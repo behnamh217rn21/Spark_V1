@@ -126,5 +126,3 @@ def update_config_from_file(filename):
     with open(filename) as f:
         exp_config = edict(yaml.safe_load(f))
         _update_config(cfg, exp_config)
-
-
